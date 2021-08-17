@@ -30,8 +30,9 @@ estados = [
     "Tocantins"
 ]
 
+x = len(estados)
 i = 0
-while 1 < 27:
+while 1 < x:
     if 'Rio' in estados[i] or 'Par' in estados[i]:
         print(estados[i])
     i += 1
